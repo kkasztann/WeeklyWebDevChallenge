@@ -5,8 +5,18 @@ body {
 .container {
     margin: 0 auto;
     width: 1050px;
+    display: flex;
 }
 
-.logo {
+.logo-top {
     text-align: center;
+    opacity: 0.3;
+}
+
+.column-left {
+    width: 50%;
+}
+
+.column-right {
+    width: 50%;
 }

@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -8,36 +9,70 @@
 
     <link rel="stylesheet" href="css/style.css">
 </head>
+
 <body>
+
+    <div class="logo-top">
+        <img src="/img/logo_top_0.png" alt="logo">
+        <img src="/img/logo_top_1.png" alt="logo">
+    </div>
     <div class="container">
-        <div class="logo-top">
-            <img src="/img/logo_top_0.png" alt="logo">
-            <img src="/img/logo_top_1.png" alt="logo">
+    <div class="column-left">
+        <div class="register-form">
+            Register Form
+            <form action="" method="get" class="">
+                <div class="">
+                    <label for="username">Username: </label>
+                    <input type="text" name="username" id="username" required>
+                </div>
+                <div class="">
+                    <label for="password">Password: </label>
+                    <input type="password" name="password" id="password" required>
+                </div>
+                <div class="">
+                    <label for="confirmPassword">Password: </label>
+                    <input type="password" name="confirmPassword" id="confirmPassword" required>
+                </div>
+                <div class="">
+                    <label for="email">Email </label>
+                    <input type="email" name="email" id="email" required>
+                </div>
+                <div class="">
+                    <label for="location">Your location </label>
+                    <select id="pet-select">
+                        <option value="">--Please choose an option--</option>
+                        <option value="op1">Option1</option>
+                        <option value="cat">Option2</option>
+                        <option value="hamster">Option3</option>
+                    </select>
+                </div>
+
+                <div class="">
+                    <input type="submit" value="Subscribe!">
+                </div>
+            </form>
         </div>
-        <div class="column-left">
-            <div class="register-form">
-                Register Form
-            </div>
-            <div class="send-email">
-                Send Email
-            </div>
-        </div>
-        <div class="column-right">
-            <div class="sing-in-form">
-                Sign In Form
-            </div>
-            <div class="recovery-form">
-                Recovery Form
-            </div>
-            <div class="subscribe-form">
-                Subscribe Form
-            </div>
-            <div class="logo-bottom">
-                <img src="/img/logo_bottom_0.png" alt="logo">
-                <img src="/img/logo_bottom_1.png" alt="logo">
-                <img src="/img/logo_bottom_2.png" alt="logo">
-            </div>
+        <div class="send-email">
+            Send Email
         </div>
     </div>
+    <div class="column-right">
+        <div class="sing-in-form">
+            Sign In Form
+        </div>
+        <div class="recovery-form">
+            Recovery Form
+        </div>
+        <div class="subscribe-form">
+            Subscribe Form
+        </div>
+        <div class="logo-bottom">
+            <img src="/img/logo_bottom_0.png" alt="logo">
+            <img src="/img/logo_bottom_1.png" alt="logo">
+            <img src="/img/logo_bottom_2.png" alt="logo">
+        </div>
+    </div>
+    </div>
 </body>
+
 </html>
